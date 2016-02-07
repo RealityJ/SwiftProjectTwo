@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04D-mK-Qk2">
+                                <rect key="frame" x="150" y="72" width="300" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="pdw-Kc-Qxa"/>
+                                </constraints>
+                                <state key="normal" title="Computer Engineering">
+                                    <color key="titleColor" red="1" green="0.89389040129999997" blue="0.090548625679999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nIn-p9-1oz" kind="show" id="azO-OM-Vo1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1re-fd-aBg">
+                                <rect key="frame" x="150" y="235" width="300" height="140"/>
+                                <state key="normal" title="Study Spots">
+                                    <color key="titleColor" red="1" green="0.89389040129999997" blue="0.090548625679999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d8G-5E-Fvj" kind="show" id="3td-NT-5Te"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxG-T7-K0D">
+                                <rect key="frame" x="150" y="403" width="300" height="140"/>
+                                <state key="normal" image="d2l.png">
+                                    <color key="titleColor" red="1" green="0.89389040129999997" blue="0.090548625679999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ngn-BA-hQ1" kind="show" id="cm3-Z1-mzF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1re-fd-aBg" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="59C-uq-d0h"/>
+                            <constraint firstItem="hxG-T7-K0D" firstAttribute="top" secondItem="1re-fd-aBg" secondAttribute="bottom" constant="28" id="9vE-fj-EJE"/>
+                            <constraint firstItem="hxG-T7-K0D" firstAttribute="centerX" secondItem="04D-mK-Qk2" secondAttribute="centerX" id="AFH-85-yMH"/>
+                            <constraint firstItem="1re-fd-aBg" firstAttribute="height" secondItem="04D-mK-Qk2" secondAttribute="height" id="FAf-53-niy"/>
+                            <constraint firstItem="hxG-T7-K0D" firstAttribute="width" secondItem="04D-mK-Qk2" secondAttribute="width" id="GuC-Fh-br9"/>
+                            <constraint firstItem="hxG-T7-K0D" firstAttribute="height" secondItem="04D-mK-Qk2" secondAttribute="height" id="T6c-VC-9aa"/>
+                            <constraint firstItem="1re-fd-aBg" firstAttribute="centerX" secondItem="04D-mK-Qk2" secondAttribute="centerX" id="T9U-Pj-fGB"/>
+                            <constraint firstItem="04D-mK-Qk2" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" symbolic="YES" id="XaS-de-5oF"/>
+                            <constraint firstItem="1re-fd-aBg" firstAttribute="width" secondItem="04D-mK-Qk2" secondAttribute="width" id="aZe-Ee-6Vx"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="hxG-T7-K0D" secondAttribute="bottom" constant="8" symbolic="YES" id="bjM-0V-55w"/>
+                            <constraint firstItem="1re-fd-aBg" firstAttribute="top" secondItem="04D-mK-Qk2" secondAttribute="bottom" constant="23" id="i7d-sM-LLw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome" id="Dol-Z7-VAZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <connections>
+                        <outlet property="coenButton" destination="04D-mK-Qk2" id="z1z-6f-PyI"/>
+                        <outlet property="d2lButton" destination="hxG-T7-K0D" id="ATc-BZ-uQ2"/>
+                        <outlet property="studySpotsButton" destination="1re-fd-aBg" id="ITt-U8-0Oh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504" y="-1603"/>
+        </scene>
+        <!--Computer Engineering-->
+        <scene sceneID="6TW-lT-90M">
+            <objects>
+                <viewController id="nIn-p9-1oz" customClass="CoenViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="der-d1-oEH"/>
+                        <viewControllerLayoutGuide type="bottom" id="zfi-5c-Ldj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gGb-wu-eAL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg0-Wc-xNR">
+                                <rect key="frame" x="51" y="310" width="505" height="233"/>
+                                <state key="normal" title="Homework Help">
+                                    <color key="titleColor" red="1" green="0.89389040129999997" blue="0.090548625679999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pyp-K2-5Jt" kind="show" id="qxL-ik-1py"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa7-WE-Msx">
+                                <rect key="frame" x="51" y="72" width="505" height="233"/>
+                                <state key="normal" title="Marquette Engineering Department">
+                                    <color key="titleColor" red="1" green="0.89389040129999997" blue="0.090548625679999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="b9g-HR-wUY" kind="show" id="UAl-iF-Pha"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aa7-WE-Msx" firstAttribute="leading" secondItem="gGb-wu-eAL" secondAttribute="leadingMargin" constant="31" id="LSj-3b-AzA"/>
+                            <constraint firstItem="aa7-WE-Msx" firstAttribute="top" secondItem="der-d1-oEH" secondAttribute="bottom" constant="8" symbolic="YES" id="OX6-lb-mSR"/>
+                            <constraint firstItem="pg0-Wc-xNR" firstAttribute="top" secondItem="aa7-WE-Msx" secondAttribute="bottom" constant="5" id="S6w-oq-Tat"/>
+                            <constraint firstItem="zfi-5c-Ldj" firstAttribute="top" secondItem="pg0-Wc-xNR" secondAttribute="bottom" constant="8" symbolic="YES" id="UDr-du-g1j"/>
+                            <constraint firstItem="pg0-Wc-xNR" firstAttribute="width" secondItem="aa7-WE-Msx" secondAttribute="width" id="VG6-h8-ZSR"/>
+                            <constraint firstItem="aa7-WE-Msx" firstAttribute="leading" secondItem="pg0-Wc-xNR" secondAttribute="leading" id="XKk-nO-c2r"/>
+                            <constraint firstItem="pg0-Wc-xNR" firstAttribute="height" secondItem="aa7-WE-Msx" secondAttribute="height" id="iRF-vI-aD2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aa7-WE-Msx" secondAttribute="trailing" constant="24" id="lGY-d4-iO8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Computer Engineering" id="Hi4-h0-Hga"/>
+                    <connections>
+                        <outlet property="engineeringDepartmentButton" destination="aa7-WE-Msx" id="1So-HL-bt3"/>
+                        <outlet property="homeworkHelpButton" destination="pg0-Wc-xNR" id="6dE-FP-wTi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJT-1W-hC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2120" y="-2419"/>
+        </scene>
+        <!--Building List-->
+        <scene sceneID="Btz-l6-xTh">
+            <objects>
+                <viewController id="d8G-5E-Fvj" customClass="BuildingsViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ua4-nN-kAA"/>
+                        <viewControllerLayoutGuide type="bottom" id="xre-oc-fFU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wE6-1h-8pv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="63" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EWI-M7-XmS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EWI-M7-XmS" firstAttribute="leading" secondItem="wE6-1h-8pv" secondAttribute="leading" id="3vb-Xx-jVf"/>
+                            <constraint firstAttribute="trailing" secondItem="EWI-M7-XmS" secondAttribute="trailing" id="5br-d8-bCY"/>
+                            <constraint firstItem="EWI-M7-XmS" firstAttribute="bottom" secondItem="xre-oc-fFU" secondAttribute="top" id="PWG-v1-Rpv"/>
+                            <constraint firstItem="EWI-M7-XmS" firstAttribute="top" secondItem="wE6-1h-8pv" secondAttribute="top" id="Sz4-nB-7J3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Building List" id="YN4-F7-093"/>
+                    <connections>
+                        <outlet property="TableView" destination="EWI-M7-XmS" id="cbf-Ff-koo"/>
+                        <segue destination="8p8-QN-JvX" kind="show" identifier="MapsSegue" id="BdC-Og-65f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBc-Ds-lYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2259" y="-1603"/>
+        </scene>
+        <!--Desire To Learn-->
+        <scene sceneID="hfa-Kk-enJ">
+            <objects>
+                <viewController id="ngn-BA-hQ1" customClass="DesireToLearnViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fp7-eA-QwL"/>
+                        <viewControllerLayoutGuide type="bottom" id="BHP-hK-83a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kR7-Oq-PPc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsb-uf-ZFD">
+                                <rect key="frame" x="20" y="498" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="SSq-01-Z6L"/>
+                                    <constraint firstAttribute="height" constant="45" id="h82-XO-Adt"/>
+                                </constraints>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <action selector="BackClick:" destination="ngn-BA-hQ1" eventType="touchUpInside" id="QFQ-ar-1oW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSe-Ku-V2f">
+                                <rect key="frame" x="535" y="498" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Pzd-Yh-wyg"/>
+                                    <constraint firstAttribute="width" constant="45" id="rJA-Ce-7sD"/>
+                                </constraints>
+                                <state key="normal" title="&gt;"/>
+                                <connections>
+                                    <action selector="ForwardClick:" destination="ngn-BA-hQ1" eventType="touchUpInside" id="shf-gQ-Wog"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFa-qj-2hg">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wFa-qj-2hg" secondAttribute="trailing" id="4FV-mc-X6S"/>
+                            <constraint firstItem="wFa-qj-2hg" firstAttribute="top" secondItem="Fp7-eA-QwL" secondAttribute="bottom" id="Jiy-Hx-mRU"/>
+                            <constraint firstItem="KSe-Ku-V2f" firstAttribute="trailing" secondItem="kR7-Oq-PPc" secondAttribute="trailingMargin" id="Kdy-xI-TNq"/>
+                            <constraint firstItem="Wsb-uf-ZFD" firstAttribute="baseline" secondItem="KSe-Ku-V2f" secondAttribute="baseline" id="Ldx-cH-G8i"/>
+                            <constraint firstItem="Wsb-uf-ZFD" firstAttribute="leading" secondItem="kR7-Oq-PPc" secondAttribute="leadingMargin" id="MR3-zA-S80"/>
+                            <constraint firstItem="wFa-qj-2hg" firstAttribute="leading" secondItem="kR7-Oq-PPc" secondAttribute="leading" id="aNX-ZV-A9i"/>
+                            <constraint firstItem="wFa-qj-2hg" firstAttribute="bottom" secondItem="BHP-hK-83a" secondAttribute="top" id="sQw-id-pUt"/>
+                            <constraint firstItem="BHP-hK-83a" firstAttribute="top" secondItem="Wsb-uf-ZFD" secondAttribute="bottom" constant="8" symbolic="YES" id="v1P-tD-Cnf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Desire To Learn" id="iXM-eC-p1M"/>
+                    <connections>
+                        <outlet property="backButton" destination="Wsb-uf-ZFD" id="ezj-ZC-IQa"/>
+                        <outlet property="forwardButton" destination="KSe-Ku-V2f" id="fqK-tr-q6N"/>
+                        <outlet property="webView" destination="wFa-qj-2hg" id="9Gy-Q9-cmZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9P1-lH-Adq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136" y="-840"/>
+        </scene>
+        <!--Marquette Engineering Deparment-->
+        <scene sceneID="DtS-CG-NvB">
+            <objects>
+                <viewController id="b9g-HR-wUY" customClass="EngineeringDepartmentViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zaa-TK-UMZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="LeV-7F-OdH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1O9-KE-m30">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QhC-ga-qjA">
+                                <rect key="frame" x="-1" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QhC-ga-qjA" firstAttribute="bottom" secondItem="LeV-7F-OdH" secondAttribute="top" id="4z3-Xi-2cC"/>
+                            <constraint firstItem="QhC-ga-qjA" firstAttribute="top" secondItem="zaa-TK-UMZ" secondAttribute="bottom" id="Gra-tj-LdU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QhC-ga-qjA" secondAttribute="trailing" constant="-19" id="HY0-9U-KnK"/>
+                            <constraint firstItem="QhC-ga-qjA" firstAttribute="leading" secondItem="1O9-KE-m30" secondAttribute="leadingMargin" constant="-21" id="nfP-As-UWt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Marquette Engineering Deparment" id="8uk-KJ-7b3"/>
+                    <connections>
+                        <outlet property="webView" destination="QhC-ga-qjA" id="AKY-gw-E98"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qil-zf-oND" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2811" y="-2923"/>
+        </scene>
+        <!--Homework Help List-->
+        <scene sceneID="N2L-Qc-5Q8">
+            <objects>
+                <viewController id="pyp-K2-5Jt" customClass="HomeworkHelpViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="egC-fz-6R5"/>
+                        <viewControllerLayoutGuide type="bottom" id="zar-6A-Y2F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ewe-dC-Hiq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6yb-Ym-rPE">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6yb-Ym-rPE" secondAttribute="trailing" id="AvI-sm-JSk"/>
+                            <constraint firstItem="6yb-Ym-rPE" firstAttribute="bottom" secondItem="zar-6A-Y2F" secondAttribute="top" id="D4q-iV-taJ"/>
+                            <constraint firstItem="6yb-Ym-rPE" firstAttribute="leading" secondItem="Ewe-dC-Hiq" secondAttribute="leading" id="UNn-jX-im8"/>
+                            <constraint firstItem="6yb-Ym-rPE" firstAttribute="top" secondItem="Ewe-dC-Hiq" secondAttribute="top" constant="20" symbolic="YES" id="hNy-oe-CPn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Homework Help List" id="OwB-eK-Ypb"/>
+                    <connections>
+                        <outlet property="TableView" destination="6yb-Ym-rPE" id="6kU-n5-PM6"/>
+                        <segue destination="nfC-iA-iZd" kind="show" identifier="HelpToWebSegue" id="H2P-RJ-emQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMc-Yk-DbO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2811" y="-2277"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="5T9-zk-Q38">
+            <objects>
+                <viewController id="nfC-iA-iZd" customClass="HelpWebViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RpH-uL-fOd"/>
+                        <viewControllerLayoutGuide type="bottom" id="26I-Vm-VEy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="swt-qx-z8b">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XW-H6-XIu">
+                                <rect key="frame" x="0.0" y="20" width="600" height="529"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNB-Fm-owm">
+                                <rect key="frame" x="535" y="486" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="20b-qw-Zps"/>
+                                    <constraint firstAttribute="height" constant="45" id="Nw0-vq-86b"/>
+                                </constraints>
+                                <state key="normal" title="&gt;"/>
+                                <connections>
+                                    <action selector="forwardClick:" destination="nfC-iA-iZd" eventType="touchUpInside" id="W1q-aY-Kye"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ji6-Ep-mPx">
+                                <rect key="frame" x="20" y="486" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Gck-FS-1tz"/>
+                                    <constraint firstAttribute="width" constant="45" id="leG-rp-hwU"/>
+                                </constraints>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <action selector="backClick:" destination="nfC-iA-iZd" eventType="touchUpInside" id="JIs-hx-bN7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5XW-H6-XIu" secondAttribute="trailing" id="2Mh-Hn-fb5"/>
+                            <constraint firstItem="26I-Vm-VEy" firstAttribute="top" secondItem="xNB-Fm-owm" secondAttribute="bottom" constant="20" id="KMZ-JO-SzX"/>
+                            <constraint firstItem="5XW-H6-XIu" firstAttribute="leading" secondItem="swt-qx-z8b" secondAttribute="leading" id="RNd-0w-iAi"/>
+                            <constraint firstItem="26I-Vm-VEy" firstAttribute="top" secondItem="Ji6-Ep-mPx" secondAttribute="bottom" constant="20" id="YLZ-TG-xLh"/>
+                            <constraint firstItem="xNB-Fm-owm" firstAttribute="trailing" secondItem="swt-qx-z8b" secondAttribute="trailingMargin" id="YZK-UY-TfK"/>
+                            <constraint firstItem="26I-Vm-VEy" firstAttribute="top" secondItem="5XW-H6-XIu" secondAttribute="bottom" constant="2" id="rRg-xg-S7Y"/>
+                            <constraint firstItem="Ji6-Ep-mPx" firstAttribute="leading" secondItem="swt-qx-z8b" secondAttribute="leadingMargin" id="yPI-4B-iGu"/>
+                            <constraint firstItem="5XW-H6-XIu" firstAttribute="top" secondItem="swt-qx-z8b" secondAttribute="top" constant="20" symbolic="YES" id="zhJ-oo-LgW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="szt-rq-h0p"/>
+                    <connections>
+                        <outlet property="backButton" destination="Ji6-Ep-mPx" id="DWB-hX-KnF"/>
+                        <outlet property="forwardButton" destination="xNB-Fm-owm" id="PTm-NK-dq8"/>
+                        <outlet property="titleBar" destination="szt-rq-h0p" id="4ha-Hy-Efs"/>
+                        <outlet property="webView" destination="5XW-H6-XIu" id="7Ev-a9-Aff"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aN0-pi-lyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3545" y="-2277"/>
+        </scene>
+        <!--Maps View Controller-->
+        <scene sceneID="vBO-SV-vSI">
+            <objects>
+                <viewController storyboardIdentifier="MapsViewController" id="8p8-QN-JvX" customClass="MapsViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JMe-Dz-Aig"/>
+                        <viewControllerLayoutGuide type="bottom" id="TUW-Iv-mjq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x61-sb-rbb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="YZ0-tn-j1K">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YZ0-tn-j1K" firstAttribute="top" secondItem="JMe-Dz-Aig" secondAttribute="bottom" id="3OA-SX-AOM"/>
+                            <constraint firstAttribute="trailing" secondItem="YZ0-tn-j1K" secondAttribute="trailing" id="b75-58-gqT"/>
+                            <constraint firstItem="YZ0-tn-j1K" firstAttribute="leading" secondItem="x61-sb-rbb" secondAttribute="leading" id="iCx-wd-nIp"/>
+                            <constraint firstItem="YZ0-tn-j1K" firstAttribute="bottom" secondItem="TUW-Iv-mjq" secondAttribute="top" id="jOk-RW-6MB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="YZ0-tn-j1K" id="TOr-DQ-7sI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1D-5k-66c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3048" y="-1603"/>
+        </scene>
+        <!--Academics-->
+        <scene sceneID="egK-Zh-wYN">
+            <objects>
+                <navigationController id="ZrB-fZ-REH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Academics" image="fa-graduation-cap_44_44_003875_none.png" selectedImage="fa-graduation-cap_44_44_003875_none.png" id="ebX-2Z-1Zo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lRa-2m-IWI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="GY6-I8-3QN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8V-nu-NLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792" y="-497"/>
+        </scene>
+        <!--Social-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Homework2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iH-qT-Zwj">
+                                <rect key="frame" x="101" y="159" width="398" height="122"/>
+                                <state key="normal" title="Restaurants"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09t-tT-wdu">
+                                <rect key="frame" x="101" y="421" width="398" height="122"/>
+                                <state key="normal" title="Campus Events"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3y-cb-Jqk">
+                                <rect key="frame" x="101" y="291" width="398" height="122"/>
+                                <state key="normal" title="Downtown Activities"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9R-hq-Kkd">
+                                <rect key="frame" x="101" y="29" width="398" height="122"/>
+                                <state key="normal" title="Nightlife"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0iH-qT-Zwj" firstAttribute="width" secondItem="G9R-hq-Kkd" secondAttribute="width" id="7Zt-Je-C3Q"/>
+                            <constraint firstItem="09t-tT-wdu" firstAttribute="top" secondItem="R3y-cb-Jqk" secondAttribute="bottom" constant="8" symbolic="YES" id="7tR-H3-pbd"/>
+                            <constraint firstItem="0iH-qT-Zwj" firstAttribute="top" secondItem="G9R-hq-Kkd" secondAttribute="bottom" constant="8" symbolic="YES" id="9wF-YY-OZc"/>
+                            <constraint firstItem="G9R-hq-Kkd" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="81" id="Cm5-ZH-uR4"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="09t-tT-wdu" secondAttribute="bottom" constant="8" symbolic="YES" id="HTv-pn-iiy"/>
+                            <constraint firstItem="R3y-cb-Jqk" firstAttribute="top" secondItem="0iH-qT-Zwj" secondAttribute="bottom" constant="10" id="Ns7-bi-i27"/>
+                            <constraint firstItem="R3y-cb-Jqk" firstAttribute="height" secondItem="G9R-hq-Kkd" secondAttribute="height" id="SKF-7K-kEc"/>
+                            <constraint firstItem="G9R-hq-Kkd" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Tsr-DL-HvJ"/>
+                            <constraint firstItem="09t-tT-wdu" firstAttribute="height" secondItem="G9R-hq-Kkd" secondAttribute="height" id="VA5-JJ-1Ql"/>
+                            <constraint firstItem="R3y-cb-Jqk" firstAttribute="leading" secondItem="09t-tT-wdu" secondAttribute="leading" id="c2r-Sq-wgL"/>
+                            <constraint firstItem="09t-tT-wdu" firstAttribute="width" secondItem="G9R-hq-Kkd" secondAttribute="width" id="ftY-W1-FTy"/>
+                            <constraint firstItem="0iH-qT-Zwj" firstAttribute="leading" secondItem="R3y-cb-Jqk" secondAttribute="leading" id="gJn-fe-xyg"/>
+                            <constraint firstItem="0iH-qT-Zwj" firstAttribute="height" secondItem="G9R-hq-Kkd" secondAttribute="height" id="jOF-RW-AwE"/>
+                            <constraint firstItem="R3y-cb-Jqk" firstAttribute="width" secondItem="G9R-hq-Kkd" secondAttribute="width" id="tkx-aE-I4M"/>
+                            <constraint firstItem="0iH-qT-Zwj" firstAttribute="leading" secondItem="G9R-hq-Kkd" secondAttribute="leading" id="uP8-kL-ucE"/>
+                            <constraint firstItem="G9R-hq-Kkd" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="9" id="znH-7g-Rcf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Social" image="fa-users_35_35_003875_none.png" selectedImage="fa-users_35_35_003875_none.png" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="campusEventsButton" destination="09t-tT-wdu" id="uhR-aZ-E4y"/>
+                        <outlet property="downtownButton" destination="R3y-cb-Jqk" id="T8D-yF-R5o"/>
+                        <outlet property="nightlifeButton" destination="G9R-hq-Kkd" id="mwU-uI-eFr"/>
+                        <outlet property="restaurantsButton" destination="0iH-qT-Zwj" id="6xn-sr-yV5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZrB-fZ-REH" kind="relationship" relationship="viewControllers" id="mef-8P-Ukh"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="d2l.png" width="250" height="50"/>
+        <image name="fa-graduation-cap_44_44_003875_none.png" width="132" height="132"/>
+        <image name="fa-users_35_35_003875_none.png" width="105" height="105"/>
+    </resources>
+</document>
