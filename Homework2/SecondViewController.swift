@@ -10,36 +10,40 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    @IBOutlet weak var restaurantsButton: UIButton!
-    @IBOutlet weak var nightlifeButton: UIButton!
-    @IBOutlet weak var downtownButton: UIButton!
-    @IBOutlet weak var campusEventsButton: UIButton!
-    @IBOutlet weak var facebookButton: UIButton!
-    
+    @IBOutlet weak var restaurantsView: UIView!
+    @IBOutlet weak var nightlifeView: UIView!
+    @IBOutlet weak var downtownView: UIView!
+    @IBOutlet weak var campusView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        self.tabBarController?.tabBar.hidden = false;
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1)
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         
+        restaurantsView.layer.borderWidth = 5;
+        restaurantsView.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
+        restaurantsView.layer.cornerRadius = 5;
+        restaurantsView.backgroundColor = UIColor.clearColor()
+
         
-        restaurantsButton.layer.borderWidth = 5;
-        restaurantsButton.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
-        restaurantsButton.layer.cornerRadius = 5;
+        nightlifeView.layer.borderWidth = 5;
+        nightlifeView.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
+        nightlifeView.layer.cornerRadius = 5;
+        nightlifeView.backgroundColor = UIColor.clearColor()
+
+        
+        downtownView.layer.borderWidth = 5;
+        downtownView.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
+        downtownView.layer.cornerRadius = 5;
+        downtownView.backgroundColor = UIColor.clearColor()
         
         
-        nightlifeButton.layer.borderWidth = 5;
-        nightlifeButton.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
-        nightlifeButton.layer.cornerRadius = 5;
-        
-        
-        downtownButton.layer.borderWidth = 5;
-        downtownButton.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
-        downtownButton.layer.cornerRadius = 5;
-        
-        
-        campusEventsButton.layer.borderWidth = 5;
-        campusEventsButton.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
-        campusEventsButton.layer.cornerRadius = 5;
+        campusView.layer.borderWidth = 5;
+        campusView.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
+        campusView.layer.cornerRadius = 5;
+        campusView.backgroundColor = UIColor.clearColor()
         
     }
 

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C26D52F11C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */; };
+		C26D52F31C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */; };
+		C26D52F51C6A8AED0025758F /* fa-building_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */; };
+		C26D52F71C6A8B690025758F /* fa-university_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F61C6A8B690025758F /* fa-university_35_35_ffc600_none.png */; };
+		C26D52FC1C6A8E6E0025758F /* NightlifeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D52FB1C6A8E6E0025758F /* NightlifeContainer.swift */; };
+		C26D52FF1C6A8F1F0025758F /* RestaurantsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D52FE1C6A8F1F0025758F /* RestaurantsContainerViewController.swift */; };
+		C26D53011C6A8F500025758F /* GenericContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D53001C6A8F500025758F /* GenericContainerViewController.swift */; };
+		C26D53031C6A8F890025758F /* CampusContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D53021C6A8F890025758F /* CampusContainerViewController.swift */; };
+		C26D53051C6A8FA50025758F /* DowntownContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D53041C6A8FA50025758F /* DowntownContainerViewController.swift */; };
 		C2A684661C66C91F00DCDE9B /* d2l.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A684651C66C91F00DCDE9B /* d2l.png */; };
 		C2A684681C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A684671C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png */; };
 		C2A6846C1C66D23D00DCDE9B /* yikyak.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6846B1C66D23D00DCDE9B /* yikyak.png */; };
@@ -34,6 +43,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-cutlery_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-cutlery_35_35_ffc600_none.png"; sourceTree = "<group>"; };
+		C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-globe_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-globe_35_35_ffc600_none.png"; sourceTree = "<group>"; };
+		C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-building_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-building_35_35_ffc600_none.png"; sourceTree = "<group>"; };
+		C26D52F61C6A8B690025758F /* fa-university_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-university_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-university_35_35_ffc600_none.png"; sourceTree = "<group>"; };
+		C26D52FB1C6A8E6E0025758F /* NightlifeContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightlifeContainer.swift; sourceTree = "<group>"; };
+		C26D52FE1C6A8F1F0025758F /* RestaurantsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsContainerViewController.swift; sourceTree = "<group>"; };
+		C26D53001C6A8F500025758F /* GenericContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericContainerViewController.swift; sourceTree = "<group>"; };
+		C26D53021C6A8F890025758F /* CampusContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusContainerViewController.swift; sourceTree = "<group>"; };
+		C26D53041C6A8FA50025758F /* DowntownContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DowntownContainerViewController.swift; sourceTree = "<group>"; };
 		C2A684651C66C91F00DCDE9B /* d2l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d2l.png; sourceTree = "<group>"; };
 		C2A684671C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fa-facebook_35_35_003875_none.png"; sourceTree = "<group>"; };
 		C2A6846B1C66D23D00DCDE9B /* yikyak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yikyak.png; sourceTree = "<group>"; };
@@ -74,6 +92,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C26D52FA1C6A8E570025758F /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				C26D52FB1C6A8E6E0025758F /* NightlifeContainer.swift */,
+				C26D52FE1C6A8F1F0025758F /* RestaurantsContainerViewController.swift */,
+				C26D53001C6A8F500025758F /* GenericContainerViewController.swift */,
+				C26D53021C6A8F890025758F /* CampusContainerViewController.swift */,
+				C26D53041C6A8FA50025758F /* DowntownContainerViewController.swift */,
+			);
+			name = Containers;
+			sourceTree = "<group>";
+		};
+		C26D53061C6A933D0025758F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2A684731C66DD0C00DCDE9B /* BuildingsViewController.swift */,
+				C2A684771C66F98200DCDE9B /* MapsViewController.swift */,
+				C2A6847D1C67B00100DCDE9B /* CoenViewController.swift */,
+				C2A6847F1C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift */,
+				C2A684811C67B59D00DCDE9B /* HomeworkHelpViewController.swift */,
+				C2A684831C67B9CF00DCDE9B /* DesireToLearnViewController.swift */,
+				C2A684871C67EA0C00DCDE9B /* HelpWebViewController.swift */,
+				C2E863E41C66BACF00DF075E /* FirstViewController.swift */,
+				C2E863E61C66BACF00DF075E /* SecondViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C2E863D61C66BACF00DF075E = {
 			isa = PBXGroup;
 			children = (
@@ -95,21 +141,14 @@
 		C2E863E11C66BACF00DF075E /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				C26D53061C6A933D0025758F /* ViewControllers */,
+				C26D52FA1C6A8E570025758F /* Containers */,
 				C2E863F81C66BC7F00DF075E /* Images */,
 				C2E863E21C66BACF00DF075E /* AppDelegate.swift */,
-				C2E863E41C66BACF00DF075E /* FirstViewController.swift */,
-				C2E863E61C66BACF00DF075E /* SecondViewController.swift */,
 				C2E863E81C66BACF00DF075E /* Main.storyboard */,
 				C2E863EB1C66BACF00DF075E /* Assets.xcassets */,
 				C2E863ED1C66BACF00DF075E /* LaunchScreen.storyboard */,
 				C2E863F01C66BACF00DF075E /* Info.plist */,
-				C2A684731C66DD0C00DCDE9B /* BuildingsViewController.swift */,
-				C2A684771C66F98200DCDE9B /* MapsViewController.swift */,
-				C2A6847D1C67B00100DCDE9B /* CoenViewController.swift */,
-				C2A6847F1C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift */,
-				C2A684811C67B59D00DCDE9B /* HomeworkHelpViewController.swift */,
-				C2A684831C67B9CF00DCDE9B /* DesireToLearnViewController.swift */,
-				C2A684871C67EA0C00DCDE9B /* HelpWebViewController.swift */,
 			);
 			path = Homework2;
 			sourceTree = "<group>";
@@ -117,6 +156,10 @@
 		C2E863F81C66BC7F00DF075E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C26D52F61C6A8B690025758F /* fa-university_35_35_ffc600_none.png */,
+				C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */,
+				C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */,
+				C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */,
 				C2A6846F1C66DB5500DCDE9B /* goldeneagleicon.png */,
 				C2A6846D1C66D60E00DCDE9B /* coenpic.jpg */,
 				C2A6846B1C66D23D00DCDE9B /* yikyak.png */,
@@ -193,10 +236,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26D52F11C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png in Resources */,
 				C2E863EF1C66BACF00DF075E /* LaunchScreen.storyboard in Resources */,
 				C2E863F71C66BC7900DF075E /* background.png in Resources */,
 				C2E863EC1C66BACF00DF075E /* Assets.xcassets in Resources */,
 				C2A6846E1C66D60E00DCDE9B /* coenpic.jpg in Resources */,
+				C26D52F71C6A8B690025758F /* fa-university_35_35_ffc600_none.png in Resources */,
+				C26D52F51C6A8AED0025758F /* fa-building_35_35_ffc600_none.png in Resources */,
 				C2E864041C66C56F00DF075E /* library.jpg in Resources */,
 				C2A684661C66C91F00DCDE9B /* d2l.png in Resources */,
 				C2E863FE1C66BFD200DF075E /* fa-graduation-cap_44_44_003875_none.png in Resources */,
@@ -205,6 +251,7 @@
 				C2A684861C67D24400DCDE9B /* Default-568h@2x.png in Resources */,
 				C2E864021C66C05400DF075E /* fa-users_35_35_003875_none.png in Resources */,
 				C2A684701C66DB5500DCDE9B /* goldeneagleicon.png in Resources */,
+				C26D52F31C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png in Resources */,
 				C2E863EA1C66BACF00DF075E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,15 +263,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26D52FC1C6A8E6E0025758F /* NightlifeContainer.swift in Sources */,
 				C2A684781C66F98200DCDE9B /* MapsViewController.swift in Sources */,
 				C2A684841C67B9CF00DCDE9B /* DesireToLearnViewController.swift in Sources */,
 				C2A684881C67EA0C00DCDE9B /* HelpWebViewController.swift in Sources */,
+				C26D53011C6A8F500025758F /* GenericContainerViewController.swift in Sources */,
+				C26D53031C6A8F890025758F /* CampusContainerViewController.swift in Sources */,
 				C2A6847E1C67B00100DCDE9B /* CoenViewController.swift in Sources */,
 				C2A684741C66DD0C00DCDE9B /* BuildingsViewController.swift in Sources */,
 				C2E863E71C66BACF00DF075E /* SecondViewController.swift in Sources */,
 				C2E863E31C66BACF00DF075E /* AppDelegate.swift in Sources */,
 				C2E863E51C66BACF00DF075E /* FirstViewController.swift in Sources */,
+				C26D52FF1C6A8F1F0025758F /* RestaurantsContainerViewController.swift in Sources */,
 				C2A684821C67B59D00DCDE9B /* HomeworkHelpViewController.swift in Sources */,
+				C26D53051C6A8FA50025758F /* DowntownContainerViewController.swift in Sources */,
 				C2A684801C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
