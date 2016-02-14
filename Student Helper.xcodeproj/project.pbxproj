@@ -143,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				C2A684791C66FCBA00DCDE9B /* MapKit.framework */,
-				C2E863E11C66BACF00DF075E /* Homework2 */,
+				C2E863E11C66BACF00DF075E /* Student Helper */,
 				C2E863E01C66BACF00DF075E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2E863E11C66BACF00DF075E /* Homework2 */ = {
+		C2E863E11C66BACF00DF075E /* Student Helper */ = {
 			isa = PBXGroup;
 			children = (
 				C24577DE1C6BC652003C4CBA /* SocialViewControllers */,
@@ -169,6 +169,7 @@
 				C2E863ED1C66BACF00DF075E /* LaunchScreen.storyboard */,
 				C2E863F01C66BACF00DF075E /* Info.plist */,
 			);
+			name = "Student Helper";
 			path = Homework2;
 			sourceTree = "<group>";
 		};
