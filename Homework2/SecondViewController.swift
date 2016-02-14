@@ -20,7 +20,7 @@ class SecondViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         self.tabBarController?.tabBar.hidden = false;
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1)
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "nightMilwaukee.jpg")!)
         
         restaurantsView.layer.borderWidth = 5;
         restaurantsView.layer.borderColor =  UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor

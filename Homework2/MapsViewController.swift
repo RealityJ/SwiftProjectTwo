@@ -49,10 +49,40 @@ class MapsViewController: UIViewController, CLLocationManagerDelegate, MKMapView
             place = CLLocationCoordinate2D(latitude: 43.038346, longitude:  -87.932016)
         }else if(receivedBuilding == "Cudahy"){
             place = CLLocationCoordinate2D(latitude: 43.038213, longitude:  -87.928712)
+        }else if(receivedBuilding == "Glorioso's Italian Market"){
+            place = CLLocationCoordinate2D(latitude: 43.052798, longitude: -87.899248)
+        }else if(receivedBuilding == "Leon's Frozen Custard Drive-in"){
+            place = CLLocationCoordinate2D(latitude: 42.987762, longitude: -87.948705)
+        }else if(receivedBuilding == "Milwaukee Public Market"){
+            place = CLLocationCoordinate2D(latitude: 43.035229, longitude: -87.908089)
+        }else if(receivedBuilding == "Blue's Egg"){
+            place = CLLocationCoordinate2D(latitude: 43.034261, longitude: -88.008247)
+        }else if(receivedBuilding == "Sanford Restaurant"){
+            place = CLLocationCoordinate2D(latitude: 43.050426, longitude: -87.904829)
+        }else if(receivedBuilding == "Mason Street Grill"){
+            place = CLLocationCoordinate2D(latitude: 43.039885, longitude: -87.905591)
+        }else if(receivedBuilding == "Bartolotta's Lake Park Bistro"){
+            place = CLLocationCoordinate2D(latitude: 43.068326, longitude: -87.869167)
+        }else if(receivedBuilding == "Harbor House"){
+            place = CLLocationCoordinate2D(latitude: 43.037667, longitude: -87.895193)
+        }else if(receivedBuilding == "Mader's"){
+            place = CLLocationCoordinate2D(latitude: 43.043841, longitude: -87.914893)
+        }else if(receivedBuilding == "La Merenda"){
+            place = CLLocationCoordinate2D(latitude: 43.022947, longitude: -87.910385)
+        }else if(receivedBuilding == "The Rave/Eagles Club"){
+            place = CLLocationCoordinate2D(latitude: 43.038064, longitude: -87.943373)
+        }else if(receivedBuilding == "Bryant's Cocktail Lounge"){
+            place = CLLocationCoordinate2D(latitude: 43.014317, longitude: -87.922884)
+        }else if(receivedBuilding == "Murphy's Irish Pub"){
+            place = CLLocationCoordinate2D(latitude: 43.040119, longitude: -87.933388)
+        }else if(receivedBuilding == "Milwaukee Ale House"){
+            place = CLLocationCoordinate2D(latitude: 43.033390, longitude: -87.909476)
+        }else if(receivedBuilding == "LUCID Light Lounge"){
+            place = CLLocationCoordinate2D(latitude: 43.039489, longitude: -87.906896)
         }
         
        
-        //adds the annotation
+        //adds the annotation for the place (its the red dot)
         let annotation = MKPointAnnotation()
         annotation.coordinate = place
         annotation.title = receivedBuilding as String

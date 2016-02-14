@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24577E01C6BC67A003C4CBA /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24577DF1C6BC67A003C4CBA /* RestaurantViewController.swift */; };
+		C24577E21C6BC68B003C4CBA /* NightlifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24577E11C6BC68B003C4CBA /* NightlifeViewController.swift */; };
+		C24577E41C6BC69F003C4CBA /* DowntownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24577E31C6BC69F003C4CBA /* DowntownViewController.swift */; };
+		C24577E61C6BC6AC003C4CBA /* CampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24577E51C6BC6AC003C4CBA /* CampusViewController.swift */; };
 		C26D52F11C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */; };
 		C26D52F31C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */; };
 		C26D52F51C6A8AED0025758F /* fa-building_35_35_ffc600_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */; };
@@ -20,7 +24,6 @@
 		C2A684681C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A684671C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png */; };
 		C2A6846C1C66D23D00DCDE9B /* yikyak.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6846B1C66D23D00DCDE9B /* yikyak.png */; };
 		C2A6846E1C66D60E00DCDE9B /* coenpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2A6846D1C66D60E00DCDE9B /* coenpic.jpg */; };
-		C2A684701C66DB5500DCDE9B /* goldeneagleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6846F1C66DB5500DCDE9B /* goldeneagleicon.png */; };
 		C2A684741C66DD0C00DCDE9B /* BuildingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A684731C66DD0C00DCDE9B /* BuildingsViewController.swift */; };
 		C2A684781C66F98200DCDE9B /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A684771C66F98200DCDE9B /* MapsViewController.swift */; };
 		C2A6847A1C66FCBA00DCDE9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A684791C66FCBA00DCDE9B /* MapKit.framework */; };
@@ -28,8 +31,9 @@
 		C2A684801C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6847F1C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift */; };
 		C2A684821C67B59D00DCDE9B /* HomeworkHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A684811C67B59D00DCDE9B /* HomeworkHelpViewController.swift */; };
 		C2A684841C67B9CF00DCDE9B /* DesireToLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A684831C67B9CF00DCDE9B /* DesireToLearnViewController.swift */; };
-		C2A684861C67D24400DCDE9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A684851C67D24400DCDE9B /* Default-568h@2x.png */; };
 		C2A684881C67EA0C00DCDE9B /* HelpWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A684871C67EA0C00DCDE9B /* HelpWebViewController.swift */; };
+		C2D9D0EA1C701D4C0053A545 /* nightMilwaukee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2D9D0E91C701D4C0053A545 /* nightMilwaukee.jpg */; };
+		C2D9D0EE1C7020C70053A545 /* goldenEagle.gif in Resources */ = {isa = PBXBuildFile; fileRef = C2D9D0ED1C7020C70053A545 /* goldenEagle.gif */; };
 		C2E863E31C66BACF00DF075E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E863E21C66BACF00DF075E /* AppDelegate.swift */; };
 		C2E863E51C66BACF00DF075E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E863E41C66BACF00DF075E /* FirstViewController.swift */; };
 		C2E863E71C66BACF00DF075E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E863E61C66BACF00DF075E /* SecondViewController.swift */; };
@@ -43,6 +47,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24577DF1C6BC67A003C4CBA /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		C24577E11C6BC68B003C4CBA /* NightlifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightlifeViewController.swift; sourceTree = "<group>"; };
+		C24577E31C6BC69F003C4CBA /* DowntownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DowntownViewController.swift; sourceTree = "<group>"; };
+		C24577E51C6BC6AC003C4CBA /* CampusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusViewController.swift; sourceTree = "<group>"; };
 		C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-cutlery_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-cutlery_35_35_ffc600_none.png"; sourceTree = "<group>"; };
 		C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-globe_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-globe_35_35_ffc600_none.png"; sourceTree = "<group>"; };
 		C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fa-building_35_35_ffc600_none.png"; path = "../../../../Downloads/fa-building_35_35_ffc600_none.png"; sourceTree = "<group>"; };
@@ -56,7 +64,6 @@
 		C2A684671C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fa-facebook_35_35_003875_none.png"; sourceTree = "<group>"; };
 		C2A6846B1C66D23D00DCDE9B /* yikyak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yikyak.png; sourceTree = "<group>"; };
 		C2A6846D1C66D60E00DCDE9B /* coenpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coenpic.jpg; sourceTree = "<group>"; };
-		C2A6846F1C66DB5500DCDE9B /* goldeneagleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldeneagleicon.png; sourceTree = "<group>"; };
 		C2A684731C66DD0C00DCDE9B /* BuildingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingsViewController.swift; sourceTree = "<group>"; };
 		C2A684771C66F98200DCDE9B /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		C2A684791C66FCBA00DCDE9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -64,9 +71,10 @@
 		C2A6847F1C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineeringDepartmentViewController.swift; sourceTree = "<group>"; };
 		C2A684811C67B59D00DCDE9B /* HomeworkHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkHelpViewController.swift; sourceTree = "<group>"; };
 		C2A684831C67B9CF00DCDE9B /* DesireToLearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesireToLearnViewController.swift; sourceTree = "<group>"; };
-		C2A684851C67D24400DCDE9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C2A684871C67EA0C00DCDE9B /* HelpWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpWebViewController.swift; sourceTree = "<group>"; };
-		C2E863DF1C66BACF00DF075E /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D9D0E91C701D4C0053A545 /* nightMilwaukee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nightMilwaukee.jpg; path = ../../../../Downloads/nightMilwaukee.jpg; sourceTree = "<group>"; };
+		C2D9D0ED1C7020C70053A545 /* goldenEagle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goldenEagle.gif; path = ../../../../Downloads/goldenEagle.gif; sourceTree = "<group>"; };
+		C2E863DF1C66BACF00DF075E /* Student Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E863E21C66BACF00DF075E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E863E41C66BACF00DF075E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C2E863E61C66BACF00DF075E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C24577DE1C6BC652003C4CBA /* SocialViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2E863E61C66BACF00DF075E /* SecondViewController.swift */,
+				C24577DF1C6BC67A003C4CBA /* RestaurantViewController.swift */,
+				C24577E11C6BC68B003C4CBA /* NightlifeViewController.swift */,
+				C24577E31C6BC69F003C4CBA /* DowntownViewController.swift */,
+				C24577E51C6BC6AC003C4CBA /* CampusViewController.swift */,
+			);
+			name = SocialViewControllers;
+			sourceTree = "<group>";
+		};
 		C26D52FA1C6A8E570025758F /* Containers */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,26 +124,24 @@
 			name = Containers;
 			sourceTree = "<group>";
 		};
-		C26D53061C6A933D0025758F /* ViewControllers */ = {
+		C2DD6EAA1C6A9B82005FCB4B /* EducationViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				C2A684731C66DD0C00DCDE9B /* BuildingsViewController.swift */,
-				C2A684771C66F98200DCDE9B /* MapsViewController.swift */,
+				C2E863E41C66BACF00DF075E /* FirstViewController.swift */,
 				C2A6847D1C67B00100DCDE9B /* CoenViewController.swift */,
 				C2A6847F1C67B57C00DCDE9B /* EngineeringDepartmentViewController.swift */,
 				C2A684811C67B59D00DCDE9B /* HomeworkHelpViewController.swift */,
 				C2A684831C67B9CF00DCDE9B /* DesireToLearnViewController.swift */,
 				C2A684871C67EA0C00DCDE9B /* HelpWebViewController.swift */,
-				C2E863E41C66BACF00DF075E /* FirstViewController.swift */,
-				C2E863E61C66BACF00DF075E /* SecondViewController.swift */,
+				C2A684771C66F98200DCDE9B /* MapsViewController.swift */,
 			);
-			name = ViewControllers;
+			name = EducationViewControllers;
 			sourceTree = "<group>";
 		};
 		C2E863D61C66BACF00DF075E = {
 			isa = PBXGroup;
 			children = (
-				C2A684851C67D24400DCDE9B /* Default-568h@2x.png */,
 				C2A684791C66FCBA00DCDE9B /* MapKit.framework */,
 				C2E863E11C66BACF00DF075E /* Homework2 */,
 				C2E863E01C66BACF00DF075E /* Products */,
@@ -133,7 +151,7 @@
 		C2E863E01C66BACF00DF075E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2E863DF1C66BACF00DF075E /* Homework2.app */,
+				C2E863DF1C66BACF00DF075E /* Student Helper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +159,8 @@
 		C2E863E11C66BACF00DF075E /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
-				C26D53061C6A933D0025758F /* ViewControllers */,
+				C24577DE1C6BC652003C4CBA /* SocialViewControllers */,
+				C2DD6EAA1C6A9B82005FCB4B /* EducationViewControllers */,
 				C26D52FA1C6A8E570025758F /* Containers */,
 				C2E863F81C66BC7F00DF075E /* Images */,
 				C2E863E21C66BACF00DF075E /* AppDelegate.swift */,
@@ -156,11 +175,12 @@
 		C2E863F81C66BC7F00DF075E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C2D9D0ED1C7020C70053A545 /* goldenEagle.gif */,
+				C2D9D0E91C701D4C0053A545 /* nightMilwaukee.jpg */,
 				C26D52F61C6A8B690025758F /* fa-university_35_35_ffc600_none.png */,
 				C26D52F41C6A8AED0025758F /* fa-building_35_35_ffc600_none.png */,
 				C26D52F21C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png */,
 				C26D52F01C6A89E70025758F /* fa-cutlery_35_35_ffc600_none.png */,
-				C2A6846F1C66DB5500DCDE9B /* goldeneagleicon.png */,
 				C2A6846D1C66D60E00DCDE9B /* coenpic.jpg */,
 				C2A6846B1C66D23D00DCDE9B /* yikyak.png */,
 				C2A684671C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png */,
@@ -176,9 +196,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2E863DE1C66BACF00DF075E /* Homework2 */ = {
+		C2E863DE1C66BACF00DF075E /* Student Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2E863F31C66BACF00DF075E /* Build configuration list for PBXNativeTarget "Homework2" */;
+			buildConfigurationList = C2E863F31C66BACF00DF075E /* Build configuration list for PBXNativeTarget "Student Helper" */;
 			buildPhases = (
 				C2E863DB1C66BACF00DF075E /* Sources */,
 				C2E863DC1C66BACF00DF075E /* Frameworks */,
@@ -188,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = Homework2;
+			name = "Student Helper";
 			productName = Homework2;
-			productReference = C2E863DF1C66BACF00DF075E /* Homework2.app */;
+			productReference = C2E863DF1C66BACF00DF075E /* Student Helper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2E863DA1C66BACF00DF075E /* Build configuration list for PBXProject "Homework2" */;
+			buildConfigurationList = C2E863DA1C66BACF00DF075E /* Build configuration list for PBXProject "Student Helper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,7 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2E863DE1C66BACF00DF075E /* Homework2 */,
+				C2E863DE1C66BACF00DF075E /* Student Helper */,
 			);
 		};
 /* End PBXProject section */
@@ -242,15 +262,15 @@
 				C2E863EC1C66BACF00DF075E /* Assets.xcassets in Resources */,
 				C2A6846E1C66D60E00DCDE9B /* coenpic.jpg in Resources */,
 				C26D52F71C6A8B690025758F /* fa-university_35_35_ffc600_none.png in Resources */,
+				C2D9D0EE1C7020C70053A545 /* goldenEagle.gif in Resources */,
 				C26D52F51C6A8AED0025758F /* fa-building_35_35_ffc600_none.png in Resources */,
 				C2E864041C66C56F00DF075E /* library.jpg in Resources */,
 				C2A684661C66C91F00DCDE9B /* d2l.png in Resources */,
 				C2E863FE1C66BFD200DF075E /* fa-graduation-cap_44_44_003875_none.png in Resources */,
 				C2A684681C66D19200DCDE9B /* fa-facebook_35_35_003875_none.png in Resources */,
 				C2A6846C1C66D23D00DCDE9B /* yikyak.png in Resources */,
-				C2A684861C67D24400DCDE9B /* Default-568h@2x.png in Resources */,
+				C2D9D0EA1C701D4C0053A545 /* nightMilwaukee.jpg in Resources */,
 				C2E864021C66C05400DF075E /* fa-users_35_35_003875_none.png in Resources */,
-				C2A684701C66DB5500DCDE9B /* goldeneagleicon.png in Resources */,
 				C26D52F31C6A8ABF0025758F /* fa-globe_35_35_ffc600_none.png in Resources */,
 				C2E863EA1C66BACF00DF075E /* Main.storyboard in Resources */,
 			);
@@ -263,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24577E41C6BC69F003C4CBA /* DowntownViewController.swift in Sources */,
 				C26D52FC1C6A8E6E0025758F /* NightlifeContainer.swift in Sources */,
+				C24577E61C6BC6AC003C4CBA /* CampusViewController.swift in Sources */,
+				C24577E01C6BC67A003C4CBA /* RestaurantViewController.swift in Sources */,
 				C2A684781C66F98200DCDE9B /* MapsViewController.swift in Sources */,
 				C2A684841C67B9CF00DCDE9B /* DesireToLearnViewController.swift in Sources */,
 				C2A684881C67EA0C00DCDE9B /* HelpWebViewController.swift in Sources */,
@@ -271,6 +294,7 @@
 				C26D53031C6A8F890025758F /* CampusContainerViewController.swift in Sources */,
 				C2A6847E1C67B00100DCDE9B /* CoenViewController.swift in Sources */,
 				C2A684741C66DD0C00DCDE9B /* BuildingsViewController.swift in Sources */,
+				C24577E21C6BC68B003C4CBA /* NightlifeViewController.swift in Sources */,
 				C2E863E71C66BACF00DF075E /* SecondViewController.swift in Sources */,
 				C2E863E31C66BACF00DF075E /* AppDelegate.swift in Sources */,
 				C2E863E51C66BACF00DF075E /* FirstViewController.swift in Sources */,
@@ -390,8 +414,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Homework2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joaquin.Homework2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "joaquin.Student-Helper";
+				PRODUCT_NAME = "Student Helper";
 			};
 			name = Debug;
 		};
@@ -401,15 +425,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Homework2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joaquin.Homework2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "joaquin.Student-Helper";
+				PRODUCT_NAME = "Student Helper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2E863DA1C66BACF00DF075E /* Build configuration list for PBXProject "Homework2" */ = {
+		C2E863DA1C66BACF00DF075E /* Build configuration list for PBXProject "Student Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2E863F11C66BACF00DF075E /* Debug */,
@@ -418,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2E863F31C66BACF00DF075E /* Build configuration list for PBXNativeTarget "Homework2" */ = {
+		C2E863F31C66BACF00DF075E /* Build configuration list for PBXNativeTarget "Student Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2E863F41C66BACF00DF075E /* Debug */,

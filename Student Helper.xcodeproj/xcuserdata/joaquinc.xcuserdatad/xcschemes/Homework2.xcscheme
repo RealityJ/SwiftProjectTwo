@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2E863DE1C66BACF00DF075E"
-               BuildableName = "Homework2.app"
-               BlueprintName = "Homework2"
-               ReferencedContainer = "container:Homework2.xcodeproj">
+               BuildableName = "Student Helper.app"
+               BlueprintName = "Student Helper"
+               ReferencedContainer = "container:Student Helper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2E863DE1C66BACF00DF075E"
-            BuildableName = "Homework2.app"
-            BlueprintName = "Homework2"
-            ReferencedContainer = "container:Homework2.xcodeproj">
+            BuildableName = "Student Helper.app"
+            BlueprintName = "Student Helper"
+            ReferencedContainer = "container:Student Helper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2E863DE1C66BACF00DF075E"
-            BuildableName = "Homework2.app"
-            BlueprintName = "Homework2"
-            ReferencedContainer = "container:Homework2.xcodeproj">
+            BuildableName = "Student Helper.app"
+            BlueprintName = "Student Helper"
+            ReferencedContainer = "container:Student Helper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2E863DE1C66BACF00DF075E"
-            BuildableName = "Homework2.app"
-            BlueprintName = "Homework2"
-            ReferencedContainer = "container:Homework2.xcodeproj">
+            BuildableName = "Student Helper.app"
+            BlueprintName = "Student Helper"
+            ReferencedContainer = "container:Student Helper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

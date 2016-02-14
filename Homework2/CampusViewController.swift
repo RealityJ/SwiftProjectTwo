@@ -1,25 +1,24 @@
 //
-//  EngineeringDepartmentViewController.swift
+//  CampusViewController.swift
 //  Homework2
 //
-//  Created by Joaquin Castro-Calvo on 2/7/16.
+//  Created by Joaquin Castro-Calvo on 2/10/16.
 //  Copyright © 2016 Joaquin Castro-Calvo. All rights reserved.
 //
 
 import UIKit
 
-class EngineeringDepartmentViewController: UIViewController {
-    
+class CampusViewController: UIViewController {
+
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = NSURL (string: "http://www.marquette.edu/electrical-computer-engineering/");
+        let url = NSURL (string: "https://www.facebook.com/LateNightMU/");
         let requestObj = NSURLRequest(URL: url!);
         webView.loadRequest(requestObj)
-        
         forwardButton.layer.cornerRadius = forwardButton.frame.size.width/2
         forwardButton.clipsToBounds = true
         forwardButton.backgroundColor = UIColor(red: 1/255, green: 18/255, blue: 107/255, alpha: 0.8)
@@ -31,7 +30,6 @@ class EngineeringDepartmentViewController: UIViewController {
         backButton.backgroundColor = UIColor(red: 1/255, green: 18/255, blue: 107/255, alpha: 0.8)
         backButton.layer.borderColor = UIColor(red: 255/255, green: 197/255, blue: 38/255, alpha: 1).CGColor
         backButton.layer.borderWidth = 2
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,14 +37,7 @@ class EngineeringDepartmentViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func ForwardClick(sender: AnyObject) {
-        webView.goForward()
-    }
 
-    @IBAction func BackwardClick(sender: AnyObject) {
-        webView.goBack()
-    }
-    
     /*
     // MARK: - Navigation
 
@@ -57,4 +48,10 @@ class EngineeringDepartmentViewController: UIViewController {
     }
     */
 
+    @IBAction func ForwardPress(sender: AnyObject) {
+        webView.goForward()
+    }
+    @IBAction func BackPress(sender: AnyObject) {
+        webView.goBack()
+    }
 }
